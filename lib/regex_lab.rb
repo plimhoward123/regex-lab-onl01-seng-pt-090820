@@ -4,7 +4,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   tempArry = []
-  if (text.scan(/[un]) && text.scan(/[ing]))
+  if (text.match/[un]) && text.match(/[ing]))
     tempArry << text
   end
   return tempArry
