@@ -1,13 +1,9 @@
 def starts_with_a_vowel?(word)
-   if (word.capitalize.scan(/[AEIOU]/) != nil)
-     return true
-   else
-     return false
-   end
+    !!word.capitalize.match(/[AEIOU]/)
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
-
+  #return text.scan(/[])
 end
 
 def words_five_letters_long(text)
