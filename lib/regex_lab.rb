@@ -4,7 +4,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   tempArry = []
-  puts (text.match(/[\Aun\zing]/))
+  puts (text.match(/[\Aun]/))
   return tempArry
 end
 
