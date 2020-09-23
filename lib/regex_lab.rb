@@ -4,7 +4,7 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   tempArry = []
-  if (text.starts_with?("un") && text.ends_with?("ing")
+  if (text.starts_with?("un") && text.ends_with?("ing"))
     puts text
   end
 end
