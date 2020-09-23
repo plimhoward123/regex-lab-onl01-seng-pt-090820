@@ -4,7 +4,9 @@ end
 
 def words_starting_with_un_and_ending_with_ing(text)
   tempArry = []
-  puts (text.match(/[\Aun]/))
+  if (text.starts_with?("un") && text.ends_with?("ing")
+    puts text
+  end
 end
 
 def words_five_letters_long(text)
